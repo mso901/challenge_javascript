@@ -1,1 +1,3 @@
-# mso901.github.io
+# Javascript For Beginners
+
+Learning Javascript by Making a Productivity App

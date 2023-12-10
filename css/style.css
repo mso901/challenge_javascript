@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  padding: 100px;
+  justify-content: space-between;
+  color: #fff;
+  font-family: 'Hahmlet', serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding-left: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+img {
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  opacity: 0.9;
+}
+
+/*body*/
+body>div {
+  width: 50%;
+}
+
+.left {
+  font-weight: 400;
+  text-shadow: 1px 1px 5px #666;
+}
+
+.left h2 {
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+.left h1 {
+  font-size: 40px;
+}
+
+.left form input:first-child {
+  width: 200px;
+  height: 40px;
+}
+
+.left form input:nth-child(2) {
+  width: 60px;
+  height: 40px;
+}
+
+.right {
+  text-shadow: 1px 1px 3px #666;
+}
+
+.right #weather {
+  float: right;
+}
+
+.right #todo-form {
+  clear: both;
+}
+
+.right #todo-form h3 {
+  font-size: 40px;
+  padding: 20px 0 10px;
+}
+
+.right #todo-form input {
+  width: 400px;
+  height: 50px;
+  border-bottom: 2px solid #fff;
+}
+
+.right #todo-list {
+  padding-top: 10px;
+}
+
+.right #todo-list li {
+  padding: 10px 0;
+  font-size: 20px;
+  text-indent: 10px;
+}
+
+.right #quote {
+  position: fixed;
+  left: 50%;
+  bottom: 100px;
+}
